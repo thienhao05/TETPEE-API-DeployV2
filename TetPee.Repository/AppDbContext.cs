@@ -133,7 +133,7 @@ public class AppDbContext : DbContext
                 
             };
             
-            for(int i = 0; i < 1000; i++)
+            for(int i = 0; i < 20; i++)
             {
                 var newUser = new User()
                 {
